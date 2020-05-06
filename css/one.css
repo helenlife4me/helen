@@ -55,14 +55,14 @@ a:hover {
 	text-decoration: underline;
 }
 .Hcom {
-	/*margin-left: 410px;*/
 	color: white;
 	font-family: fantasy;
 	font-size: 48px;
-	margin-top: 140px;
 	opacity: 0.9;
-
-	margin-left: 210px;
+	text-align: center;
+}
+.Hcom:hover {
+	opacity: 1;
 }
 .a4 {
 	/*position: absolute;
@@ -82,9 +82,7 @@ a:hover {
 .L4:hover {
 	opacity: 1;
 }
-.Hcom:hover {
-	opacity: 1;
-}
+
 .H3com:hover {
 	opacity: 1;
 }
@@ -92,22 +90,17 @@ a:hover {
 	color: white;
 	font-family: futura;
 	font-size: 32px;
-	width: 500px;
 	text-align: center;
-	margin-left: 245px;
 	opacity: 0.9;
-	/*margin-left: 450px;*/
+	width: 500px;
 }
 .H2com {
 	color: white;
 	font-family: Brush Script MT;
 	font-size: 72px;
-	margin-left: 190px;
 	text-align: center;
 }
-div {
-	display: flex;
-}
+
 .G {
 	/* float: right; */
 	position: absolute;
@@ -129,7 +122,11 @@ div {
 	margin-left: 20px;
 }
 .comp {
-	float: right;
+	padding-top: 140px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	/* text-align: center; */
 }
 
 .example {
