@@ -2,11 +2,11 @@
 	background-color: black;
 }
 .IMGme {
-	margin-left: 490px;
+	/* margin-left: 490px; */
 	opacity: 0.8;
 	border: 1px solid white;
 	border-radius: 80px;
-	margin-top: 200px;
+	/* margin-top: 200px; */
 }
 .IMGme:hover {
 	opacity: 1;
@@ -14,13 +14,10 @@
 .Pme {
 	color: white;
 	width: 600px;
-	margin-left: 400px;
 	font-size: 20px;
-	text-align: center;
 }
 .P2me {
 	color: white;
-	margin-left: 450px;
 	font-size: 48px;
 }
 .a5 {
@@ -35,7 +32,7 @@ a {
 	/*text-decoration: none;*/
 
 	margin: 10px;
-	position: absolute;
+	/* position: absolute; */
 	opacity: 0.8;
 	font-size: 32px;
 	/*border-right: white solid 4px;
@@ -59,7 +56,6 @@ a:hover {
 	font-family: fantasy;
 	font-size: 48px;
 	opacity: 0.9;
-	text-align: center;
 }
 .Hcom:hover {
 	opacity: 1;
@@ -67,13 +63,19 @@ a:hover {
 .a4 {
 	/*position: absolute;
 	float: right;*/
-	margin-left: 1150px;
-	margin-bottom: 20px;
+	/* margin-left: 1150px; */
+	/* margin-bottom: 20px; */
 	color: white;
 	font-size: 38px;
 	/*border: 1p white solid;*/
 	/*background-color: rgba(255, 255, 255, 0.514);*/
 }
+
+.contact-us-footer {
+	width: 100%;
+	text-align: right;
+}
+
 .L4 {
 	margin-left: 890px;
 	opacity: 0.8;
@@ -90,7 +92,6 @@ a:hover {
 	color: white;
 	font-family: futura;
 	font-size: 32px;
-	text-align: center;
 	opacity: 0.9;
 	width: 500px;
 }
@@ -98,7 +99,6 @@ a:hover {
 	color: white;
 	font-family: Brush Script MT;
 	font-size: 72px;
-	text-align: center;
 }
 
 .G {
@@ -109,6 +109,7 @@ a:hover {
 .S {
 	position: absolute;
 	top: 400px;
+	left: 0;
 }
 .card2 {
 	margin-left: 400px;
@@ -122,11 +123,19 @@ a:hover {
 	margin-left: 20px;
 }
 .comp {
-	padding-top: 140px;
+	padding-top: 80px;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	/* text-align: center; */
+	text-align: center;
+}
+
+.me {
+	padding-top: 200px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
 }
 
 .example {
