@@ -91,9 +91,9 @@ a:hover {
 .H3com {
 	color: white;
 	font-family: futura;
-	font-size: 32px;
+	font-size: 12px;
 	opacity: 0.9;
-	width: 500px;
+	width: 70px;
 }
 .H2com {
 	color: white;
@@ -141,4 +141,74 @@ a:hover {
 	flex-direction: column;
 	align-items: center;
 	text-align: center;
+}
+@media only screen and (min-width: 280px) {
+	.G {
+		width: 100px;
+	}
+	.S {
+		width: 100px;
+	}
+	.Hcom {
+		font-size: 2em;
+		width: 400px;
+	}
+	.H3com {
+		font-size: 24px;
+		width: 300px;
+	}
+	.Pme {
+		font-size: 18px;
+		width: 440px;
+	}
+	.card2 {
+		width: 400px;
+	}
+}
+@media only screen and (min-width: 680px) {
+	.G {
+		width: 150px;
+	}
+	.S {
+		width: 150px;
+	}
+	.Hcom {
+		font-size: 2.2em;
+		width: 400px;
+	}
+	.H3com {
+		font-size: 24px;
+		width: 410px;
+	}
+	.card2 {
+		width: 500px;
+	}
+	.Pme {
+		font-size: 1.1em;
+		width: 450px;
+	}
+}
+@media only screen and (min-width: 1024px) {
+	.G {
+		width: 200px;
+	}
+	.S {
+		width: 200px;
+	}
+
+	.Hcom {
+		font-size: 3em;
+		width: 700px;
+	}
+	.H3com {
+		font-size: 32px;
+		width: 500px;
+	}
+	.card2 {
+		width: 600px;
+	}
+	.Pme {
+		font-size: 1.3em;
+		width: 500px;
+	}
 }
